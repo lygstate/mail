@@ -1,9 +1,9 @@
 {
-  "name": "grunt-polymer-nodewebkit-example",
-  "main": "main.js",
+  "name": "grunt-polymer-atom-shell-example",
+  "main": "src/main.js",
   "chromium-args": "--ignore-gpu-blacklist",
   "description": "",
-  "author": "Mark kaosat-dev Moissette",
+  "author": "Yonggang Luo",
   "license": "MIT",
   "version": "0.0.1",
   "window": {
@@ -18,19 +18,22 @@
   },
   "devDependencies": {
     "grunt": "",
+    "grunt-atom-shell-app-builder": "",
+    "grunt-browserify": "",
     "grunt-contrib-clean": "",
+    "grunt-contrib-compress": "",
     "grunt-contrib-copy": "",
+    "grunt-contrib-htmlmin": "",
     "grunt-contrib-uglify": "",
     "grunt-contrib-watch": "",
-    "grunt-download-atom-shell": "^0.8.2",
     "grunt-exec": "",
-    "grunt-node-webkit-builder": "",
+    "grunt-rename": "",
     "grunt-text-replace": "",
     "grunt-usemin": "",
-    "vulcanize": "",
-    "grunt-contrib-compress": "^0.10.0"
+    "gruntfile": ""
   },
   "dependencies": {
-    "grunt-rename": "^0.1.3"
-  }
+    "polymer": "",
+    "soap": ""
+   }
 }
