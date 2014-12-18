@@ -1,5 +1,5 @@
 {
-  "name": "grunt-polymer-nodewebkit-example",
+  "name": "grunt-polymer-atom-shell-example",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
