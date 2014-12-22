@@ -21,11 +21,6 @@ module.exports = (grunt) ->
           files:
             "public/<%= pkg.name %>.min.js": ["public/main.js"]
 
-    exec:
-      standalone:
-        command: "vulcanize src/index.html -o build/<%= currentBuild %>/src/index.html"
-        stdout: true
-        stderr: true
 
     replace:
       standalone:
@@ -77,7 +72,7 @@ module.exports = (grunt) ->
     
     "build-atom-shell-app":
       options:
-        app_dir: 'build/<%= currentBuild %>/'
+        app_dir: 'src/'
         platforms: [
           "darwin"
           "win32"
@@ -126,7 +121,6 @@ module.exports = (grunt) ->
     
     @task.run "clean:#{subTarget}"
     @task.run "copy:#{subTarget}"
-    @task.run "exec:#{subTarget}"
     @task.run "replace:#{subTarget}"
 
     if appname

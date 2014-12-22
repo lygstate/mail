@@ -1,21 +1,9 @@
 {
   "name": "grunt-polymer-atom-shell-example",
-  "main": "src/main.js",
-  "chromium-args": "--ignore-gpu-blacklist",
   "description": "",
   "author": "Yonggang Luo",
   "license": "MIT",
   "version": "0.0.1",
-  "window": {
-    "title": "Ui test",
-    "toolbar": true,
-    "frame": true,
-    "width": 800,
-    "height": 600,
-    "position": "mouse",
-    "min_width": 640,
-    "min_height": 480
-  },
   "devDependencies": {
     "grunt": "",
     "grunt-atom-shell-app-builder": "",
@@ -33,7 +21,5 @@
     "gruntfile": ""
   },
   "dependencies": {
-    "polymer": "",
-    "soap": ""
    }
 }

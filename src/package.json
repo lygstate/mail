@@ -1,0 +1,23 @@
+{
+  "name": "grunt-polymer-atom-shell-example",
+  "main": "main.js",
+  "chromium-args": "--ignore-gpu-blacklist",
+  "description": "",
+  "author": "Yonggang Luo",
+  "license": "MIT",
+  "version": "0.0.1",
+  "window": {
+    "title": "Ui test",
+    "toolbar": true,
+    "frame": false,
+    "width": 800,
+    "height": 600,
+    "position": "mouse",
+    "min_width": 640,
+    "min_height": 480
+  },
+  "dependencies": {
+    "polymer": "",
+    "soap": ""
+   }
+}

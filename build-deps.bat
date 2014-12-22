@@ -4,4 +4,6 @@ call npm install -g vulcanize
 call npm install -g bower
 call npm install
 call bower update
+cd /d src
+call npm install
 pause
