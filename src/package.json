@@ -18,6 +18,7 @@
     "min_height": 480
   },
   "dependencies": {
-    "soap": ""
+    "soap": "",
+    "nodegit": ""
    }
 }

@@ -14,9 +14,7 @@ app.on('window-all-closed', function() {
     app.quit();
 });
 
-// This method will be called when atom-shell has done everything
-// initialization and ready for creating browser windows.
-app.on('ready', function() {
+function StartWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow({width: 800, height: 600,frame: false});
 
@@ -30,4 +28,10 @@ app.on('ready', function() {
     // when you should delete the corresponding element.
     mainWindow = null;
   });
+}
+
+// This method will be called when atom-shell has done everything
+// initialization and ready for creating browser windows.
+app.on('ready', function() {
+  StartWindow();
 });
