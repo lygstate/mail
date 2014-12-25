@@ -4,6 +4,5 @@ call npm install -g vulcanize
 call npm install -g bower
 call npm install
 call bower update
-cd /d src
-call npm install
 pause
+::https://www.npmjs.com/package/grunt-build-atom-shell

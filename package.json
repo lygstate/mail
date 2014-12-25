@@ -6,8 +6,8 @@
   "version": "0.0.1",
   "devDependencies": {
     "grunt": "",
-    "grunt-atom-shell-app-builder": "",
     "grunt-browserify": "",
+    "grunt-build-atom-shell": "",
     "grunt-contrib-clean": "",
     "grunt-contrib-compress": "",
     "grunt-contrib-copy": "",
